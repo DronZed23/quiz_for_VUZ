@@ -6,7 +6,6 @@ type Props ={
     setStep: (value: number) => void;
 }
 
-// eslint-disable-next-line react/prop-types
 export const MainPage = ({ setStep } : Props) => {
     const navigate = useNavigate();
     const step = 1;
