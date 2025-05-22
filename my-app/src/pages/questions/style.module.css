@@ -123,3 +123,113 @@
     transform: skewX(-15deg);
 
 }
+
+@media screen and (max-width: 1160px){
+    .quizCardConteiner{
+        width: 335px;
+        border-radius: 32px;
+        margin: 69px auto 82px auto;
+        padding: 36px 28px 69px 28px;
+    }
+
+    .quizCardTestName{
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 26px;
+    }
+
+    .quizCardQuestionName{
+        font-size: 34px;
+        font-weight: 600;
+        color: #FFFFFF;
+        margin-bottom: 46px;
+    }
+
+    .quizCardTestAnsOpt{
+        height: 78px;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07));
+        border: 3px solid #FFFFFF26;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0 24px 0 24px;
+        color: #FFFFFF;
+        min-width: 276px;
+    }
+
+    .quizCardTestAnsOpt:hover{
+        height: 78px;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07));
+        border: 3px solid #FFFFFF26;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0 24px 0 24px;
+        color: #FFFFFF;
+        min-width: 276px;
+    }
+
+    .quizCardContBtn{
+        padding: 16px 34px 16px 34px;
+        border-radius: 66px;
+        background: rgba(157, 232, 158, 0.15);
+        font-size: 18px;
+        margin-top: 24px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .active{
+        position: relative;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07));
+        border: 3px solid #9DE89E;
+        box-shadow: 0 4px 34px 0 #9DE89E59;
+        height: 78px;
+        border-radius: 16px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0 24px 0 24px;
+        color: #FFFFFF;
+        min-width: 276px;
+    }
+
+    .activeContBtn{
+        background: #9DE89E;
+        padding: 16px 34px 16px 34px;
+        border-radius: 66px;
+        font-size: 18px;
+        margin-top: 24px;
+        color: #000000;
+    }
+
+    .activeContBtn:hover{
+        background: #9DE89E;
+        padding: 16px 34px 16px 34px;
+        border-radius: 66px;
+        font-size: 18px;
+        margin-top: 24px;
+        color: #000000;
+    }
+
+    .imgCircle{
+        display: none;
+    }
+
+    .questNum{
+        position: absolute;
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 108px;
+        text-align: left;
+        color: #EDFDED;
+        width: 144px;
+        height: 124px;
+        bottom: -50px;
+        right: 0;
+        opacity: 0.2;
+        transform: skewX(-15deg);
+
+    }
+}

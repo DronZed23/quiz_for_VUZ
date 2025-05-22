@@ -125,3 +125,105 @@
     line-height: 31px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1160px){
+
+    .resultLogo{
+        display: none;
+    }
+
+    .resultCardContainer{
+        position: relative;
+        width: 335px;
+        height: 539px;
+        border-radius: 70px;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 69px auto 46px auto;
+        padding: 36px 28px 28px 28px;
+    }
+
+    .resultTestName{
+        width: 258px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+
+    .resultLangImg{
+        position: absolute;
+        width: 279px;
+        height: 237px;
+        top: unset;
+        right: unset;
+        border-radius: 32px;
+        bottom: 28px;
+
+    }
+
+    .resultPercent{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57px;
+        color: #9DE89E;
+    }
+
+    .resultNameLang{
+        font-size: 28px;
+        color: #FFFFFF;
+        margin-bottom: 83px;
+    }
+
+    .resultShareBtn{
+        display: none;
+    }
+
+    .resultShareBtn1{
+        display: block;
+        margin: 12px auto 92px auto ;
+        width: 335px;
+        height: 47px;
+        border-radius: 66px;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 18px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    .resultStartOver{
+        position: relative;
+        width: 335px;
+        height: 47px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 auto;
+        border-radius: 66px;
+        background: #9DE89E;
+        display: block;
+        padding: 12px 0 12px 65px;
+
+    }
+
+    .resultStartOver:hover{
+        position: relative;
+        width: 335px;
+        height: 47px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 auto;
+        border-radius: 66px;
+        background: #9DE89E;
+        display: block;
+        padding: 12px 0 12px 65px;
+    }
+
+    .rebootIcon{
+        position: absolute;
+        top: 12px;
+        right: 65px ;
+    }
+
+    .popup{
+        min-width: 276px;
+        font-size: 16px;
+    }
+}
